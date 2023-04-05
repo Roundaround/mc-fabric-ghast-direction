@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "ghastdirection",
+  "version": "${version}",
+  "name": "Ghast Direction",
+  "description": "Fix bug where ghasts always face the same direction while not moving.",
+  "authors": [
+    "Roundaround"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/roundaround-ghast-direction",
+    "sources": "https://github.com/Roundaround/mc-fabric-ghast-direction",
+    "issues": "https://github.com/Roundaround/mc-fabric-ghast-direction/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/ghastdirection/icon.png",
+  "environment": "*",
+  "mixins": [
+    "ghastdirection.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "1.19.x",
+    "java": ">=17"
+  }
+}
