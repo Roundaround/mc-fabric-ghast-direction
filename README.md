@@ -8,7 +8,7 @@ Fix bug where ghasts always face the same direction while not moving.
 
 ## Download
 
-https://modrinth.com/mod/roundaround-ghast-direction
+https://modrinth.com/mod/ghast-direction
 
 ## License
 
