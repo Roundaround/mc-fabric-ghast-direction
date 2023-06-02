@@ -3,7 +3,7 @@
   "id": "ghastdirection",
   "version": "${version}",
   "name": "Ghast Direction",
-  "description": "Fix bug where ghasts always face the same direction while not moving.",
+  "description": "Fix bug where ghasts always face the same direction while not moving.\n${library}",
   "authors": [
     "Roundaround"
   ],
@@ -20,7 +20,7 @@
   ],
   "depends": {
     "fabricloader": "*",
-    "minecraft": "1.19.x",
+    "minecraft": ">=1.20-beta.1 <1.21",
     "java": ">=17"
   }
 }
